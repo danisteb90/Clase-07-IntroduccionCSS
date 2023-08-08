@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E6E6E6;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    font-family: 'Times New Roman', Times, serif;
+    place-items: center;
+}
+
+main{
+    background-color: #E5E5E5;
+    width: 1440px;
+}
+
+section{
+    background-color: #fff;
+}
+
+header{
+    height: 188.19px;
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 100px;
+    height: 146.37px;
+}
+
+.spacing{
+    background-color: #fff;
+    height: 191px;
+}
+
+.spacing h1{
+    background-color: #C4C4C4;
+    color: #005677;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    height: 60px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitles{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 3px 10px;
+}
+
+ul{
+    padding: 20px 40px;
+    line-height: 22px;
+}
+
+ul li span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.information{
+    padding: 20px 20px;
+    font-size: 15px;
+}
+
+p{
+    margin-bottom: 12px;
+}
+
+.years{
+    font-weight: bold;
+}
+
+.padText{
+    padding-left: 75px;
+}
+
+.lastSection{
+    height: 317px;
+}
+
+footer{
+    background-color: #005677;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+footer p{
+    margin: 0;
+    padding-right: 25px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer img{
+    padding-right: 22px;
+}
